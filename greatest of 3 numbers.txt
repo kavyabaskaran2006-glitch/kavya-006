@@ -1,0 +1,23 @@
+//Greatest of 3 numbers
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        int a,b,c;
+        Scanner scan=new Scanner(System.in);
+        System.out.print("Enter a number 1:");
+        a=scan.nextInt();
+        System.out.print("Enter a number 2:");
+        b=scan.nextInt();
+        System.out.print("Enter a number 3:");
+        c=scan.nextInt();
+        if(a>b && a>c){
+            System.out.println("Number 1 is greater");
+        }
+        else if(b>c){
+            System.out.println("Number 2 is greater");
+        }
+        else{
+            System.out.println("Number 3 is greater");
+        }
+    } 
+}
