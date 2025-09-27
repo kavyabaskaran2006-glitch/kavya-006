@@ -1,0 +1,16 @@
+//Palindrome or not
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String a=sc.nextLine();
+        StringBuffer sb=new StringBuffer(a);
+        sb.reverse();
+        if(a.equals(sb.toString())){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not a palindrome");
+        }
+    }
+}
